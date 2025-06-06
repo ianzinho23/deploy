@@ -1,0 +1,59 @@
+/* src\pages\Lista\styles.css */
+
+.pagina-lista-usuarios {
+    background-color: #12121200; /* fundo escuro */
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    background: #1e1e1ede;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    width: 500px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #a13401; /* Azul claro para o título */
+    margin-bottom: 20px;
+}
+
+.link-voltar {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #9c4922; 
+    color: white;
+    border: 2px solid #580707;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+.link-voltar:hover {
+    background-color: #a13401; 
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 90%;
+        padding: 25px 20px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    .link-voltar {
+        font-size: 14px;
+    }
+}

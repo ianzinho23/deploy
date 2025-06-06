@@ -1,0 +1,82 @@
+/*src\pages\Home\styles.css*/
+/* src\pages\Home\styles.css */
+
+body {
+    background: url(../../assets/images/back.png) no-repeat center center fixed; 
+    background-size: cover; 
+    margin: 0; 
+    height: 100vh; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.pagina-home {
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    padding: 40px 30px;
+    border-radius: 12px;
+    width: 400px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #f14a07; 
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: #ff0000; 
+    margin-bottom: 30px;
+}
+
+.botoes-home {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.botao-home {
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #9c4922; 
+    border: 2px solid #580707;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.botao-home:hover {
+    background-color: #a13401; 
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 90%;
+        padding: 25px 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .botao-home {
+        font-size: 14px;
+    }
+}
